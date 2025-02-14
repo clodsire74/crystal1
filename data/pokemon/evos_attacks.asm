@@ -3355,3 +3355,19 @@ CelebiEvosAttacks:
 	db 40, BATON_PASS
 	db 50, PERISH_SONG
 	db 0 ; no more level-up moves
+
+MewscaradaEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, SCRATCH
+	db 1, TAIL_WHIP
+	db 1, VINE_WHIP
+	db 7, BITE
+	db 10, GROWTH
+	db 15, QUICK_ATTACK
+	db 22, RAZOR_LEAF
+	db 33, SLASH
+	db 36, FLOWER_TRICK
+	db 48, CRUNCH
+	db 58, SYNTHESIS
+	db 64, SOLAR_BEAM
+	db 0 ; no more level-up moves
