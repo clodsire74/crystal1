@@ -2077,3 +2077,23 @@ DefenseCurl:
 	statupmessage
 	statupfailtext
 	endmove
+
+FLowerTrick:
+	checkobedience
+	usedmovetext
+	doturn
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	flowertrick
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove
