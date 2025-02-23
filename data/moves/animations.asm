@@ -253,8 +253,8 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	dw BattleAnim_FlowerTrick
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_Dummy
 	dw BattleAnim_Dummy
 	dw BattleAnim_Dummy
 	dw BattleAnim_SweetScent2
@@ -1135,6 +1135,7 @@ BattleAnim_Surf:
 	anim_wait 56
 	anim_ret
 
+BattleAnim_FlowerTrick:
 BattleAnim_VineWhip:
 	anim_1gfx BATTLE_ANIM_GFX_WHIP
 	anim_sound 0, 1, SFX_VINE_WHIP
