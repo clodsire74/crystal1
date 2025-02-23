@@ -133,6 +133,7 @@ AlphabeticalPokedexOrder:
 	db MEOWTH
 	db METAPOD
 	db MEW
+	db MEWSCARADA
 	db MEWTWO
 	db MILTANK
 	db MISDREAVUS
